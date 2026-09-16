@@ -16,8 +16,6 @@
 
 ### Lời Mở Đầu
 
--
-
 ### Chương 1: Giới Thiệu Đề Tài
 
  **Lý do chọn đề tài:** Đề tài được lựa chọn nhằm minh họa khả năng ứng dụng toán học vào việc giải quyết một vấn đề thực tế: làm thế nào để xây dựng một thực đơn vừa đáp ứng nhu cầu dinh dưỡng cơ bản vừa phù hợp với ngân sách. Thông qua hệ bất phương trình hai ẩn, bài toán thực tế được chuyển thành một mô hình toán học có thể biểu diễn và giải quyết trực quan trên mặt phẳng tọa độ.

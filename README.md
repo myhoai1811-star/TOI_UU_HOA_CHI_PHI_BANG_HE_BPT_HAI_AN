@@ -1,4 +1,4 @@
-# Dự Án: Ứng dụng Hệ Bất Phương Trình Hai Ẩn Vào Bài Toán Tối Ưu Hóa Chi Phí Thực Đơn Dinh Dưỡng 
+# Dự Án: Ứng Dụng Hệ Bất Phương Trình Hai Ẩn Vào Bài Toán Tối Ưu Hóa Chi Phí Thực Đơn Dinh Dưỡng 
 Đây là dự án nghiên cứu và vận dụng **hệ bất phương trình bậc nhất hai ẩn** vào một bài toán thực tế về xây dựng thực đơn dinh dưỡng. Dự án tập trung vào việc xây dựng mô hình toán học đơn giản, biểu diễn miền nghiệm trên mặt phẳng tọa độ và tìm phương án có **chi phí thấp nhất** nhưng vẫn đáp ứng các yêu cầu về dinh dưỡng và ngân sách.
 
 ---

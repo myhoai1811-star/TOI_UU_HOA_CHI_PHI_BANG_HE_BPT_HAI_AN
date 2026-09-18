@@ -32,10 +32,9 @@
 
 ### Chương 3: Xây Dựng Mô Hình Và Thiết Lập Hệ Bất Phương Trình
 
-- Xây dựng một tình huống thực tế giả định về việc lựa chọn hai loại thực phẩm với ngân sách giới hạn.
-- Đưa ra các giả định cần thiết để đơn giản hóa bài toán.
+- Xây dựng một tình huống thực tế giả định về việc lựa chọn hai thực đơn với ngân sách giới hạn.
 - Xây dựng bảng dữ liệu giả định về giá thành và hàm lượng dinh dưỡng của hai loại thực phẩm.
-- Xác định hai biến quyết định `x, y`, tương ứng với lượng của hai loại thực phẩm.
+- Xác định hai biến quyết định x, y, tương ứng với lượng của hai loại thực phẩm.
 - Thiết lập các ràng buộc của mô hình.
 - Xây dựng hệ bất phương trình bậc nhất hai ẩn từ các điều kiện trên.
 - Xây dựng hàm mục tiêu tổng chi phí cần tối thiểu hóa.
@@ -50,7 +49,6 @@
 - Biểu diễn miền nghiệm của hệ bất phương trình trên mặt phẳng tọa độ.
 - Xác định phương án tối ưu bằng cách tính giá trị hàm mục tiêu tại các đỉnh của miền nghiệm.
 - Kiểm tra lại phương án tối ưu theo từng tiêu chí.
-- Giải thích ý nghĩa thực tế của nghiệm tối ưu và kết luận kết quả bài toán.
 
 ### Chương 5: Đánh Giá Và Mở Rộng Mô Hình
 
@@ -70,7 +68,7 @@
 - **Ngày 3:** Xây dựng tình huống thực tế, bảng dữ liệu giả định, xác định hai biến và thiết lập hệ bất phương trình, hàm mục tiêu cho Chương 3.
 - **Ngày 4:** Giải mô hình, xác định các đường biên, tọa độ các đỉnh và phương án tối ưu; vẽ miền nghiệm để hoàn thiện Chương 4.
 - **Ngày 5:** Phân tích kết quả, đánh giá ưu điểm – hạn chế, tính linh hoạt và hướng mở rộng; hoàn thiện Chương 5.
-- **Ngày 6:** Ráp nối toàn bộ bài tiểu luận, định dạng văn bản, kiểm tra công thức toán học, mục lục, tài liệu tham khảo và xuất bản PDF hoàn chỉnh.
+- **Ngày 6:** Ráp nối toàn bộ dự án, định dạng văn bản, kiểm tra công thức toán học, tài liệu tham khảo và xuất bản PDF hoàn chỉnh.
 
 ---
 

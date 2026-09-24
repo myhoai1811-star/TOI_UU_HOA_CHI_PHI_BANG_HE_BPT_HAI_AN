@@ -47,7 +47,15 @@
 % ĐỊNH DẠNG ĐOẠN VĂN
 % =========================================================
 \usepackage{setspace}
+\usepackage{indentfirst}
+
 \onehalfspacing
+
+% Thụt đầu dòng mỗi đoạn
+\setlength{\parindent}{1cm}
+
+% Khoảng cách giữa các đoạn
+\setlength{\parskip}{0pt}
 
 % =========================================================
 % DANH SÁCH
@@ -77,25 +85,99 @@
 % =========================================================
 \begin{document}
 
+% =====================================================================
+% TRANG BÌA
+% =====================================================================
+\begin{titlepage}
+    \begin{tikzpicture}[overlay, remember picture]
+        \draw[black, line width=1.5mm]
+            ($(current page.north west)+(1cm,-1cm)$)
+            rectangle
+            ($(current page.south east)+(-1cm,1cm)$);
+        \draw[black, thin]
+            ($(current page.north west)+(1.2cm,-1.2cm)$)
+            rectangle
+            ($(current page.south east)+(-1.2cm,1.2cm)$);
+    \end{tikzpicture}
 
-% =========================================================
-% THÔNG TIN BÀI NGHIÊN CỨU
-% =========================================================
+    \centering
+    \vspace*{0.2cm}
+    {\large \textbf{TRƯỜNG ĐẠI HỌC SƯ PHẠM HUẾ}}\\
+     {\large \textbf{KHOA TOÁN}}\\
+    \vspace{0.2cm}
+    --- $\diamond$ ---
 
-\title{
-    \textbf{ỨNG DỤNG HỆ BẤT PHƯƠNG TRÌNH HAI ẨN VÀO BÀI TOÁN TỐI ƯU HÓA CHI PHÍ THỰC ĐƠN DINH DƯỠNG}
-}
+    \vspace{1.5cm}
+    \includegraphics[width=4.5cm]{logo.jpg}
 
-\author{Thái Thị Mỹ Hoài}
+    \vspace{1cm}
+    {\huge \textbf{DỰ ÁN}}\\
+    \vspace{0.5cm}
+    {\Large \textbf{ỨNG DỤNG HỆ BẤT PHƯƠNG TRÌNH HAI ẨN VÀO BÀI TOÁN TỐI ƯU HÓA CHI PHÍ THỰC ĐƠN DINH DƯỠNG}}\\
+ 
 
-\date{Tháng 9 năm 2026}
+    \vspace{2.5cm}
+    \large
+    \renewcommand{\arraystretch}{1.3}
+    \begin{tabular}{lcl}
+    \textbf{Giảng viên giảng dạy} & : &Nguyễn Đăng Minh Phúc\\
+        \textbf{Sinh viên thực hiện} & : &Thái Thị Mỹ Hoài \\
+        \textbf{Mã sinh viên} & : &23S1010010
+    \end{tabular}
 
-\maketitle
+    \vfill
+    {\large Huế, tháng 9 năm 2026}
+    \vspace*{0.2cm}
+\end{titlepage}
+
+% =====================================================================
+
+% TRANG BÌA PHỤ
+% =====================================================================
+\begin{titlepage}
+
+    \centering
+
+    \vspace*{1.5cm}
+
+    {\large \textbf{TRƯỜNG ĐẠI HỌC SƯ PHẠM HUẾ}}\\[0.3cm]
+    {\large \textbf{KHOA TOÁN}}
+
+    \vspace{2.5cm}
+
+    {\Large \textbf{DỰ ÁN}}
+
+    \vspace{1cm}
+
+    {\LARGE \textbf{
+    ỨNG DỤNG HỆ BẤT PHƯƠNG TRÌNH HAI ẨN
+    VÀO BÀI TOÁN TỐI ƯU HÓA CHI PHÍ
+    THỰC ĐƠN DINH DƯỠNG
+    }}
+
+    \vspace{2cm}
+
+    {\large
+    \begin{tabular}{lcl}
+        \textbf{Giảng viên giảng dạy} & : & Nguyễn Đăng Minh Phúc\\[0.3cm]
+        \textbf{Sinh viên thực hiện} & : & Thái Thị Mỹ Hoài\\[0.3cm]
+        \textbf{Mã sinh viên} & : & 23S1010010
+    \end{tabular}
+    }
+
+    \vfill
+
+    {\large Huế, tháng 9 năm 2026}
+
+\end{titlepage}
+
 % =========================================================
 % LỜI MỞ ĐẦU
 % =========================================================
 
-\section*{LỜI MỞ ĐẦU}
+\begin{center}
+    \section*{LỜI MỞ ĐẦU}
+\end{center}
 
 Quản lý chi tiêu cá nhân là một kỹ năng thiết yếu trong cuộc sống hiện nay. Đối với sinh viên sống xa nhà, việc cân đối ngân sách cho các nhu cầu học tập, sinh hoạt, đi lại là một bài toán khó. Trong đó, chi phí ăn uống thường chiếm tỷ trọng lớn và nếu không có kế hoạch hợp lý, sinh viên dễ rơi vào tình trạng chi tiêu vượt mức hoặc ăn uống thiếu dinh dưỡng. Do đó, việc xây dựng một thực đơn vừa tiết kiệm vừa đảm bảo dinh dưỡng cơ bản có ý nghĩa thực tiễn rất lớn.
 
